@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "todo-backend-second"
+version = "0.1.0"
+description = ""
+authors = ["uichi"]
+readme = "README.md"
+packages = [{include = "todo_backend_second"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.5"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
